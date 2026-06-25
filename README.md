@@ -1,16 +1,45 @@
-# React + Vite
+# 🚀 React Super App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern React-based dashboard application that combines user management, movie browsing, and utility widgets like weather, news, and notes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+### 🏠 Dashboard
+- Displays user information (name, username, email, mobile)
+- Shows selected categories from global state
+- Navigation to Movies section
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎬 Movies Module
+- Fetches movies based on selected categories
+- Displays movie cards with:
+  - Poster image
+  - Title
+  - Release year
+- Category-wise movie organization
+- Click on movie to view detailed information
 
-## Expanding the Oxlint configuration
+### 🌦 Weather Widget
+- Shows real-time weather information
+- Temperature, humidity, wind, and condition
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 📰 News Widget
+- Displays latest news updates
+
+### 📝 Notes Widget
+- Add and manage personal notes
+
+---
+
+## 🛠 Tech Stack
+
+- React.js (Functional Components)
+- React Router DOM
+- Zustand (State Management)
+- JavaScript (ES6+)
+- CSS (Inline styling)
+
+---
+
+## 📂 Project Structure
