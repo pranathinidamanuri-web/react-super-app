@@ -1,45 +1,34 @@
-# 🚀 React Super App
+# React Super App
 
-A modern React-based dashboard application that combines user management, movie browsing, and utility widgets like weather, news, and notes.
-
----
-
-## 📌 Features
-
-### 🏠 Dashboard
-- Displays user information (name, username, email, mobile)
-- Shows selected categories from global state
-- Navigation to Movies section
-
-### 🎬 Movies Module
-- Fetches movies based on selected categories
-- Displays movie cards with:
-  - Poster image
-  - Title
-  - Release year
-- Category-wise movie organization
-- Click on movie to view detailed information
-
-### 🌦 Weather Widget
-- Shows real-time weather information
-- Temperature, humidity, wind, and condition
-
-### 📰 News Widget
-- Displays latest news updates
-
-### 📝 Notes Widget
-- Add and manage personal notes
+This is a React frontend project with Dashboard, Movies page, and widgets.
 
 ---
 
-## 🛠 Tech Stack
+## Features
 
-- React.js (Functional Components)
+- Dashboard with user details
+- Movie listing based on categories
+- Movie cards with poster, title, and year
+- Click movie to view details
+- Weather widget
+- News widget
+- Notes section
+- Navigation between pages
+
+---
+
+## Tech Stack
+
+- React.js
 - React Router DOM
-- Zustand (State Management)
-- JavaScript (ES6+)
-- CSS (Inline styling)
+- Zustand (state management)
+- JavaScript
+- CSS (inline styling)
 
 ---
 
-## 📂 Project Structure
+## How to Run
+
+```bash
+npm install
+npm run dev
